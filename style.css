@@ -1,0 +1,774 @@
+*{ padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: fixed; 
+    background-color: white;
+}
+.top img{
+    width: 30px;
+}
+.top h1{
+    color: blue;
+}
+span{
+    color: orange;
+}
+.nav ul {
+     list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-right:40px ;
+    gap: 20px;
+} 
+.nav  a{
+    text-decoration: none;
+}
+.hero{
+    background-image:url("/doct.jpg");
+    height: 650px;
+    width: 1300px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero h1{
+    color:rgb(245, 239, 239);
+    font-size: 80px;
+}
+.hero p{
+    color:white;
+    font-size: 45px;
+}
+.hero a{
+    background-color:orange;
+    margin-bottom: 300px;
+    margin-top: 30px;
+    border: 2px solid ;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.hero a:hover{
+    background-color: chocolate;
+    color: white;
+    border-color: white;
+    
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.three h1{
+    font-size: 40px;
+    color: blue;
+    margin-top: 10px;
+}
+.three p{
+    font-size: 30px;
+    color: black;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.three h2{
+   margin-top: 20px;
+   font-size: 40px;
+   color: rgb(38, 38, 190);
+}
+.three h6{
+    margin-top: 20px;
+    font-size: 30px;
+    color: black;
+    margin-left: 30px;
+}
+.three a{
+    margin-top: 30px;
+    background-color: rgb(243, 176, 50);
+    color: white;
+    border: 2px solid;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.three a:hover{
+    background-color: rgb(248, 146, 73);
+}
+.photo img{
+    height: 560px;
+    width: 700px;
+    margin-top: 10px;
+
+}
+.help{
+    border: 2px solid rgb(232, 228, 228);
+    background-color: rgb(232, 227, 227);
+    border-width: 20px;
+    text-align: center;
+    color: blue;
+    margin-top: 30px;
+}
+.symbol{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    background-color: rgb(207, 205, 205);
+    align-items: center;
+    place-items: center;
+    height: 1000px;
+}
+
+.symone{
+    width: 302px;
+    height: 400px;
+    border: 2px solid  rgb(255, 255, 255);
+    background-color: rgb(250, 247, 247);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.symone h1{
+margin-bottom: 50px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+.symone img{
+    border-radius: 20px;
+}
+.symone a{
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+    margin-left: 90px;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.symone a:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+.symboltwo{
+    width: 302px;
+    height: 400px;
+    border: 2px solid  rgb(255, 255, 255);
+    background-color: rgb(250, 247, 247);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.symboltwo h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.symboltwo img{
+    border-radius: 20px;
+}
+
+.symboltwo a{
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+    margin-left: 90px;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.symboltwo a:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+
+.symbolthree{
+    width: 302px;
+    height: 400px;
+    border: 2px solid  rgb(255, 255, 255);
+    background-color: rgb(250, 247, 247);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.symbolthree h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.symbolthree img{
+    border-radius: 20px;
+}
+.symbolthree a{
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+    margin-left: 90px;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.symbolthree a:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+.symbolfour{
+    width: 302px;
+    height: 400px;
+    border: 2px solid  rgb(255, 255, 255);
+    background-color: rgb(250, 247, 247);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.symbolfour h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.symbolfour img{
+    border-radius: 20px;
+}
+
+.symbolfour a{
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+    margin-left: 90px;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.symbolfour a:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+
+.symbolfive{
+    width: 302px;
+    height: 400px;
+    border: 2px solid  rgb(255, 255, 255);
+    background-color: rgb(250, 247, 247);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.symbolfive h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.symbolfive img{
+    border-radius: 20px;
+}
+
+.symbolfive a{
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+    margin-left: 90px;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.symbolfive a:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+
+.symbolsix{
+    width: 302px;
+    height: 400px;
+    border: 2px solid  rgb(255, 255, 255);
+    background-color: rgb(250, 247, 247);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.symbolsix h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.symbolsix img{
+    border-radius: 20px;
+}
+
+.symbolsix a{
+    border: 2px solid orange;
+    color: orange;
+    background-color: white;
+    margin-left: 90px;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.symbolsix a:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+
+.more a{
+    padding: 10px 10px 10px 10px;
+    border:2px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color:rgb(249, 117, 23);
+    color: white;
+    margin-left: 610px;
+    
+}
+.flu{
+    background-image: url("/flu\ shot.avif");
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 1280px;
+    margin-top: 20px;
+    margin-left: 60px;
+
+}
+.flu h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+.flu a{
+    margin-left: 45%;
+    border: 2px solid rgb(233, 113, 28);
+    border-radius: 23px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(233, 110, 22);
+    color: white;
+}
+.insurance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.insurance h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(8, 8, 110);
+}
+.insurance h4{
+    margin-top: 10px;
+    font-size: 30px;
+
+    
+}
+.insurance p{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.img{
+    margin-left: 250px;
+    margin-top: 40px;
+}
+.patient {
+    text-align: center;
+    margin-top: 30px;
+    font-size:20px;
+}
+.patient a{
+    text-decoration: none;
+    border: 2px solid rgb(232, 105, 14);
+    background-color: rgb(236, 109, 19);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+}
+.patient a:hover{
+    background-color: chocolate;
+}
+.contect{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+gap: 50px;
+text-align: center;
+margin-left: 50px;
+}
+
+.contactform h1{
+    margin-top: 30px;
+    color: rgb(38, 38, 208);
+}
+
+.contactform {
+    margin-top: 30px;
+    color: rgb(38, 38, 208);
+}
+.contactform input{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactform textarea{
+    width: 100%;
+}
+input{
+    height: 30px;
+}
+.contactform a{
+    background-color: rgb(29, 29, 222);
+    color: white;
+    padding: 5px 80px 5px 80px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.contactform a:hover{
+    color: white;
+    background-color: rgb(237, 109, 18);
+}
+.info{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(27, 27, 163);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.info h1{
+    font-size: 30px;
+    color: white;
+    margin-top: 60px;
+    margin-right: 80px;
+}
+.info p{
+    font-size: 20px;
+    margin-right: 50px;
+    margin-top: 30px;
+    color: white;
+}
+.info c{
+    font-size: 20px ;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.info i{
+    margin-top: 20px;
+    color: white;
+}
+.info h5{
+    color: white;
+}
+.map iframe{
+    margin-top: 40px;
+}
+.footer{
+    background-color: rgb(68, 68, 237);
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.footer h1{
+    margin-top: 40px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#medi{
+  
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#medi h2{
+    margin-top: 30px;
+}
+.doc h2{
+    margin-top: 30px;
+}
+.heal h2{
+    margin-top: 30px;
+}
+.doc{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.heal{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#myinput{
+ border-radius:10px;
+ text-align: center;
+ margin-top: 10px;
+}
+.tab{
+    text-align: center;
+    margin: 20px;
+    color: blue;
+    font-weight: bold;
+}
+#mybtn{
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 10px 40px 10px 40px;
+    color:white;
+    background-color: rgb(237, 109, 18);
+    border-color: orange;
+    box-shadow: rgb(237, 109, 18) 21px 13px 38px;
+}
+#demo{
+    text-align: center;
+}
+#demo1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.SEARCH{
+    text-align: center;
+    margin-top: 40PX;
+}
+.json{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.json input{
+    width: 240px;
+    height: 60px;
+}
+#date{
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+ @media screen and (max-width:425px){
+    .top h1{
+        font-size: 7px;
+        margin-right: 1170px;
+    }
+    .top img{
+        width: 7px;
+    } 
+    .nav ul{
+        position: absolute;
+        top: 30px;
+        right: 980px;
+        gap: 5px;
+        font-size: 7px;
+    }
+    .hero {
+        background-image:url("/doct.jpg");
+        width: 340px;
+        background-repeat: no-repeat;
+        margin-right: 900px;
+    }
+    .hero h1{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 100px;
+        color: black;
+    }
+    .hero p{
+        text-align: center;
+        font-size: 30px;
+        color: black;
+    }
+    .three h1{
+        text-align: center;
+        font-size: 40px;
+
+    }
+    .two{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .three p{
+        text-align: center;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .three h6{
+        text-align: center;
+        margin-left: 140px;
+        margin-right: 140px;
+    }
+    .photo img{
+        width: 200px;
+        margin-left: 160px;
+        height: 200px;
+    }
+    .symbol{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: gray;
+        height: 500px;
+    }
+    .symone{
+        height: 250px;
+
+    }
+    
+    .symone img{
+        height: 100px;
+        margin-left: 50px;
+    }
+
+    .symone h1{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .symboltwo{
+        height: 300px;
+
+    }
+    .symboltwo img{
+        height: 100px;
+        margin-left: 50px;
+    }
+    .symboltwo h1{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .symbolthree{
+        height: 300px;
+
+    }
+    .symbolthree img{
+        height: 100px;
+        margin-left: 50px;
+    }
+    .symbolthree h1{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .symbolfour{
+        height: 300px;
+
+    }
+    .symbolfour img{
+        width: 240px;
+        height: 100px;
+        margin-left: 50px;
+    }
+    .symbolfour h1{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .symbolfive{
+        height: 300px;
+
+    }
+    .symbolfive img{
+        height: 100px;
+        margin-left: 50px;
+    }
+    .symbolfive h1{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .symbolsix{
+        height: 300px;
+
+    }
+    .symbolsix img{
+        height: 100px;
+        margin-left: 50px;
+    }
+    .symbolsix h1{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .more {
+       display: grid;
+    grid-template-columns: 1fr;
+    
+
+    }
+    .more a{
+        margin-top: 700px;
+    margin-right: 500px;
+    }
+} 
+
+
+
