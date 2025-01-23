@@ -769,6 +769,34 @@ input{
     margin-right: 500px;
     }
 } 
+table{
+    background-color:beige;
+    border: none;
+    outline: none;
+    height: 400px;
+    font-size: 10px;
+    text-align: center;
+    color: #01d286;
+}
+th{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    
+
+}
+td{
+    font-size: 18px;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+table :nth-child(even):hover{
+    color: red;
+    background-color: aqua;
+}
 
 
 

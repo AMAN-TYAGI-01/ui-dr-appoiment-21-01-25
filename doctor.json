@@ -1,160 +1,166 @@
 {
-    "doctor":[
-        { 
-            "id":1,
-            "bloodid":"aman",
-         "BLOODTYPE":"A+",
-         "BLOODUNIT":"1LTR",
-         "PRICE":3000,
-        "HOSPITALNAME":"LBS HOSPITAL BHOPAL",
-        "BLOODLABADDRESS":"2ND FLOOR LAB NUMBER 6"
-
-        },
-        {
-            "id":2,
-            "bloodid":"aman",
-             "BLOODTYPE":"O+",
-             "BLOODUNIT":"1LTR",
-         "PRICE":4000,
-         "HOSPITALNAME":"HAMIDIYA HOSPITAL BHOPAL",
-          "BLOODLABADDRESS":"5TH FLOOR LAB NUMBER 4"
-        },
-
-        {
-            "id":3,
-            "bloodid":"aman",
-            "BLOODTYPE":"B+",
-            "BLOODUNIT":"1LTR",
-                     "PRICE":5000,
-                     "HOSPITALNAME":"NILAY HOSPITAL BHOPAL",
-                     "BLOODLABADDRESS":"3RD FLOOR LAB NUMBER 14"
-                    },
-
-                    {
-                        "id":4,
-                        "bloodid":"aman",
-                        "BLOODTYPE":"A-",
-                        "BLOODUNIT":"1LTR",
-                                 "PRICE":500,
-                                 "HOSPITALNAME":"BOMBEYCHILDREN BHOPAL",
-                                 "BLOODLABADDRESS":"6TH FLOOR LAB NUMBER 34"
-                                },
-
-                                {
-                                    "id":5,
-                                    "bloodid":"aman",
-                                    "BLOODTYPE":"O-",
-                                    "BLOODUNIT":"1LTR",
-                                             "PRICE":500,
-                                             "HOSPITALNAME":"RAJDEEP HOSPITAL BAIRAGARH",
-                                             "BLOODLABADDRESS":"8TH FLOOR LAB NUMBER 3"
-                                            },
-
-                                            {
-                                                "id":6,
-                                                "bloodid":"aman",
-                                                "BLOODTYPE":"B-",
-                                                "BLOODUNIT":"1LTR",
-                                                         "PRICE":500,
-                                                         "HOSPITALNAME":"MULTICARE HOSPITAL BHOPAL",
-                                                         "BLOODLABADDRESS":"10TH FLOOR LAB NUMBER 4"
-                                                        },
-                                                        {
-                                                            "id":7,
-                                                            "bloodid":"aman",
-                                                            "BLOODTYPE":"AB+",
-                                                            "BLOODUNIT":"1LTR",
-                                                                     "PRICE":500,
-                                                                     "HOSPITALNAME":"RANAUDAY BHOPAL",
-                                                                    "BLOODLABADDRESS":"2ND FLOOR LAB NUMBER 4"
-                                                                    },
-
-                                                                    {
-                                                                        "id":8,
-                                                                        "bloodid":"aman",
-                                                                        "BLOODTYPE":"AB-",
-                                                                        "BLOODUNIT":"1LTR",
-                                                                                 "PRICE":900,
-                                                                                 "HOSPITALNAME":"MAHATMAGANDHI HOSPITAL BHOPAL",
-                                                                                 "BLOODLABADDRESS":"5TH FLOOR LAB NUMBER 4"
-                                                                                }
-                        
-    ],
-
-
-    "input":[{
-        "id":1,
-        "doctorid":"tyagi",
-        "DRNAME":"Ashok",
-        "DOCTORTYPE":"Cardiologists",
-        "TIME":"10 to 6 pm",
-        "ROOMNUMBER":210,
-        "FEES":500,
-        "ADDRESS":"Bhopal",
-        "HOSPITALNAME":"MAHATMAGANDHI HOSPITAL BHOPAL",
-        "EXPERIENCE":"10YEAR"
+  "doctor": [
+    {
+      "id": "1",
+      "bloodid": "aman",
+      "BLOODTYPE": "A+",
+      "BLOODUNIT": "1LTR",
+      "PRICE": 3000,
+      "HOSPITALNAME": "LBS HOSPITAL BHOPAL",
+      "BLOODLABADDRESS": "2ND FLOOR LAB NUMBER 6"
     },
     {
-        "id":2,
-        "doctorid":"tyagi",
-        "DRNAME":"Jain",
-        "DOCTORTYPE":"Dermatologists",
-        "TIME":"10 to 6 pm",
-        "ROOMNUMBER":100,
-        "FEES":800,
-        "ADDRESS":"Indore",
-        "HOSPITALNAME":"MAHATMAGANDHI HOSPITAL INDORE",
-        "EXPERIENCE":"19YEAR"
-    },
-{
-    "id":3,
-    "doctorid":"tyagi",
-    "DRNAME":"Vivek",
-    "DOCTORTYPE":"Endocrinologists",
-    "TIME":"10 to 6 pm",
-    "ROOMNUMBER":240,
-    "FEES":1500,
-    "ADDRESS":"Mumbai",
-    "HOSPITALNAME":"MULTICARE HOSPITAL BHOPAL",
-    "EXPERIENCE":"15YEAR"
-
-},
-{
-"id":4,
-"doctorid":"tyagi",
-"DRNAME":"Balecha",
-"DOCTORTYPE":"Children specialists",
-"TIME":"10 to 6 pm",
-"ROOMNUMBER":20,
-"FEES":500,
-"ADDRESS":"Sehore",
-"HOSPITALNAME":"RANAUDAY SEHORE",
-"EXPERIENCE":"11YEAR"
-},
-
-{
-    "id":5,
-    "doctorid":"tyagi",
-    "DRNAME":"Shailendra",
-    "DOCTORTYPE":"Children specialists",
-    "TIME":"10 to 6 pm",
-    "ROOMNUMBER":20,
-    "FEES":500,
-    "ADDRESS":"Sehore",
-    "HOSPITALNAME":"CHILDREN HOSPITAL SEHORE",
-    "EXPERIENCE":"11YEAR"
+      "id": "2",
+      "bloodid": "aman",
+      "BLOODTYPE": "O+",
+      "BLOODUNIT": "1LTR",
+      "PRICE": 4000,
+      "HOSPITALNAME": "HAMIDIYA HOSPITAL BHOPAL",
+      "BLOODLABADDRESS": "5TH FLOOR LAB NUMBER 4"
     },
     {
-        "id":6,
-        "doctorid":"tyagi",
-        "DRNAME":"Nitin",
-        "DOCTORTYPE":"Children specialists",
-        "TIME":"10 to 6 pm",
-        "ROOMNUMBER":20,
-        "FEES":500,
-        "ADDRESS":"Bhopal",
-        "HOSPITALNAME":"CHIRAYU MEDICAL COLLEGE BHOPAL",
-        "EXPERIENCE":"13YEAR"
-        }
-]
+      "id": "3",
+      "bloodid": "aman",
+      "BLOODTYPE": "B+",
+      "BLOODUNIT": "1LTR",
+      "PRICE": 5000,
+      "HOSPITALNAME": "NILAY HOSPITAL BHOPAL",
+      "BLOODLABADDRESS": "3RD FLOOR LAB NUMBER 14"
+    },
+    {
+      "id": "4",
+      "bloodid": "aman",
+      "BLOODTYPE": "A-",
+      "BLOODUNIT": "1LTR",
+      "PRICE": 500,
+      "HOSPITALNAME": "BOMBEYCHILDREN BHOPAL",
+      "BLOODLABADDRESS": "6TH FLOOR LAB NUMBER 34"
+    },
+    {
+      "id": "5",
+      "bloodid": "aman",
+      "BLOODTYPE": "O-",
+      "BLOODUNIT": "1LTR",
+      "PRICE": 500,
+      "HOSPITALNAME": "RAJDEEP HOSPITAL BAIRAGARH",
+      "BLOODLABADDRESS": "8TH FLOOR LAB NUMBER 3"
+    },
+    {
+      "id": "6",
+      "bloodid": "aman",
+      "BLOODTYPE": "B-",
+      "BLOODUNIT": "1LTR",
+      "PRICE": 500,
+      "HOSPITALNAME": "MULTICARE HOSPITAL BHOPAL",
+      "BLOODLABADDRESS": "10TH FLOOR LAB NUMBER 4"
+    },
+    {
+      "id": "7",
+      "bloodid": "aman",
+      "BLOODTYPE": "AB+",
+      "BLOODUNIT": "1LTR",
+      "PRICE": 500,
+      "HOSPITALNAME": "RANAUDAY BHOPAL",
+      "BLOODLABADDRESS": "2ND FLOOR LAB NUMBER 4"
+    },
+    {
+      "id": "8",
+      "bloodid": "aman",
+      "BLOODTYPE": "AB-",
+      "BLOODUNIT": "1LTR",
+      "PRICE": 900,
+      "HOSPITALNAME": "MAHATMAGANDHI HOSPITAL BHOPAL",
+      "BLOODLABADDRESS": "5TH FLOOR LAB NUMBER 4"
     }
+  ],
+  "input": [
+    {
+      "id": "1",
+      "doctorid": "tyagi",
+      "DRNAME": "Ashok",
+      "DOCTORTYPE": "Cardiologists",
+      "TIME": "10 to 6 pm",
+      "ROOMNUMBER": 210,
+      "FEES": 500,
+      "ADDRESS": "Bhopal",
+      "HOSPITALNAME": "MAHATMAGANDHI HOSPITAL BHOPAL",
+      "EXPERIENCE": "10YEAR"
+    },
+    {
+      "id": "2",
+      "doctorid": "tyagi",
+      "DRNAME": "Jain",
+      "DOCTORTYPE": "Dermatologists",
+      "TIME": "10 to 6 pm",
+      "ROOMNUMBER": 100,
+      "FEES": 800,
+      "ADDRESS": "Indore",
+      "HOSPITALNAME": "MAHATMAGANDHI HOSPITAL INDORE",
+      "EXPERIENCE": "19YEAR"
+    },
+    {
+      "id": "3",
+      "doctorid": "tyagi",
+      "DRNAME": "Vivek",
+      "DOCTORTYPE": "Endocrinologists",
+      "TIME": "10 to 6 pm",
+      "ROOMNUMBER": 240,
+      "FEES": 1500,
+      "ADDRESS": "Mumbai",
+      "HOSPITALNAME": "MULTICARE HOSPITAL BHOPAL",
+      "EXPERIENCE": "15YEAR"
+    },
+    {
+      "id": "4",
+      "doctorid": "tyagi",
+      "DRNAME": "Balecha",
+      "DOCTORTYPE": "Children specialists",
+      "TIME": "10 to 6 pm",
+      "ROOMNUMBER": 20,
+      "FEES": 500,
+      "ADDRESS": "Sehore",
+      "HOSPITALNAME": "RANAUDAY SEHORE",
+      "EXPERIENCE": "11YEAR"
+    },
+    {
+      "id": "5",
+      "doctorid": "tyagi",
+      "DRNAME": "Shailendra",
+      "DOCTORTYPE": "Children specialists",
+      "TIME": "10 to 6 pm",
+      "ROOMNUMBER": 20,
+      "FEES": 500,
+      "ADDRESS": "Sehore",
+      "HOSPITALNAME": "CHILDREN HOSPITAL SEHORE",
+      "EXPERIENCE": "11YEAR"
+    },
+    {
+      "id": "6",
+      "doctorid": "tyagi",
+      "DRNAME": "Nitin",
+      "DOCTORTYPE": "Children specialists",
+      "TIME": "10 to 6 pm",
+      "ROOMNUMBER": 20,
+      "FEES": 500,
+      "ADDRESS": "Bhopal",
+      "HOSPITALNAME": "CHIRAYU MEDICAL COLLEGE BHOPAL",
+      "EXPERIENCE": "13YEAR"
+    }
+  ],
+  "patient": [
+    {
+      "id": "da13",
+      "Patientname": "anuj",
+      "Patientcontact": "213132443435",
+      "Patientemail": "amantyagi7024@gmailcom",
+      "Appointmentdate": "2025-01-21"
+    },
+    {
+      "id": "b221",
+      "Patientname": "anuj",
+      "Patientcontact": "213132443435",
+      "Patientemail": "amantyagi7024@gmailcom",
+      "Appointmentdate": "2025-01-07"
+    }
+  ]
+}
